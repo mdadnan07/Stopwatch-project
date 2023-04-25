@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+    <!-- website title -->
+    <title>Stopwatch</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- style css link -->
+    <link rel='stylesheet' href='stopwatch.css'>
+   
+</head>
+
+<!-- body begins here -->
+<body>   
+    
+    <!-- this is main div of the website -->
+<div class="container" "minwidth">
+
+          <!-- this img tag for image of stopwatch -->
+          <img id="clockImg" src="https://png.pngtree.com/element_our/20190528/ourmid/pngtree-flat-stopwatch-image_1127855.jpg">
+          
+          <!-- this div is for stopwatch heading -->
+          <div id="heading">STOPWATCH</div>
+ 
+          <!-- this div is for showing stopwatch display -->
+          <div>
+            <div id="content">
+            <span id="minutes" class="time">00</span>
+            <span class="text">Min </span>
+             <div class="colon">:</div>
+            <span id="seconds" class="time">00</span>
+            <span class="text">Sec </span>
+             <div class="colon">:</div>
+            <span id="milliseconds" class="time">00</span>
+            <span class="text"> </span>
+           </div>
+        </div>
+
+        <!-- this div is for stopwatch buttons -->
+        <div class="buttons">
+            <button class="btnText" id="start">Start</button>
+            <button class="btnText" id="stop">Stop</button>
+            <button class="btnText" id="reset">Reset</button>
+        </div>
+   
+    
+    </div>
+
+    <!-- this is the javascript file link -->
+    <script src='stopwatch.js'></script>
+</body>
+</html>

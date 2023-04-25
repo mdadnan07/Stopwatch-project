@@ -1,0 +1,170 @@
+/* CSS for body of website */
+body{ 
+    background: #09b77f;
+    height: 100%;
+    font-family: serif;
+    }
+
+/* this css style for website min width for open or running */
+.minwidth{
+        min-width: 400px;
+    }
+
+
+ /* This styling is for content of stopwatch display and buttons */
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: #004542;
+    flex-direction: column;
+}
+
+/* this style for clock image */
+#clockImg {
+    height: 90px;
+    width: 90px;
+    }
+
+
+/* this css style for heading stopwatch  */
+#heading{
+    color: orange;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 190px;
+   }
+
+
+/* this css style for time display */
+.time {
+    font-size: 150px;
+    color: white;
+}
+
+.colon{
+        display: inline-block;
+        color: white;
+        font-size:160px;
+    }
+
+.text {
+    font-size: 25px;
+    color: #fff700;
+}
+
+.button {
+   margin-top: 50px;
+}
+
+
+/* this css styling for button text :-- start,stop,restart */
+.btnText {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px 16px;
+    color: white;
+    border: 3px solid ;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+#start {
+    background-color: #77ab64;
+}
+
+#start:hover {
+    background-color: green;
+}
+
+#stop {
+    background-color: #f71c1c87 ;
+
+}
+
+#stop:hover {
+    background-color: #eb0909;
+}
+
+#reset {
+    background-color: #7979e3cf;
+}
+
+#reset:hover {
+    background-color: #1b1bd3;
+}
+
+
+/* Media Queiries for max width 600px*/
+@media screen and (max-width : 600px) {
+
+    /* css styling for text of buttons-- start,stop,restart */
+    .btnText {
+    padding: 10px 10px;
+    font-size: 18px;
+    margin: 10px 16px;
+    color: white;
+    border: 3px solid ;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 75px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+    
+   #heading{
+    font-size: 60px;
+   
+   }
+
+  .time{
+   font-size: 60px;
+  }
+
+  .colon{
+    font-size: 60px;
+   }
+}
+
+
+/* Media Queiries for min width and max width 900px*/
+@media screen and (min-width : 601px) and (max-width: 900px)
+{
+    #heading{
+    font-size: 80px;
+   }
+
+  .time{
+    font-size: 80px;
+   }
+
+  .colon{
+    font-size: 80px;
+   }
+
+}
+
+
+/* Media Queiries for min width 901px*/
+@media screen and (min-width: 901px) {
+
+     #heading{
+    font-size: 120px;
+     }
+
+    .time{
+    font-size: 120px;
+     }
+    .colon{
+    font-size: 120px;
+    }
+}
+
+ 
